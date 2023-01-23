@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+// Information added by me (Sampad Kumar Das)
+
+1. Installation process : ng new project_name & then just accept the farther process (ex. choose styling -> scss - y)
+2. Building application : ng build (inside dist folder one build version of the application will be created)
+3. Run application locally : ng serve / ng s / ng s --o ('o' for opening the application directly in the default browser) / ng s --port 4300 (mentioning different port - by default port is 4200)

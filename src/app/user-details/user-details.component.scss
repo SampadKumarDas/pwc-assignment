@@ -1,0 +1,19 @@
+.user-data {
+    padding: 20px;
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        th {
+            background-color: #74737329;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #476ee7c9;
+    border: 2px solid #5151f1;
+    color: #fff;
+    padding: 15px 10px;
+
+    span {
+        padding: 0 10px;
+
+        &:first-child {
+            font-weight: 500;
+        }
+    }
+
+    .left-panel {
+        span {
+            cursor: pointer;
+
+            &:not(:last-child) {
+                border-right: 2px solid #fff;
+            }
+        }
+    }
+}
